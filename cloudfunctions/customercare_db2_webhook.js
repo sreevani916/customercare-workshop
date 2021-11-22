@@ -15,11 +15,11 @@
 
     var ibmdb = require("ibm_db");
     dbname = 'bludb';
-    hostname = `55fbc997-9266-4331-afd3-888b05e734c0.bs2io90l08kqb1od8lcg.databases.appdomain.cloud`;
-    port = 31929;
+    hostname = `<host_name>`;
+    port = <port>;
     protocol = 'TCPIP';
-    uid = 'fbl40027';
-    password = 'NQIBNreZSlDayQg9';
+    uid = '<username>';
+    password = '<password>';
     connStr = `DATABASE=${dbname};HOSTNAME=${hostname};PORT=${port};PROTOCOL=${protocol};UID=${uid};PWD=${password};Security=SSL`;
     
   
